@@ -373,7 +373,7 @@ nw.c({
         var current;
         var storage = window.localStorage;
         var session = $('<iframe src="https://billing.virmach.com/clientarea.php" style="display:none;" />');
-        var orderUrl = 'https://billing.virmach.com/aff.php?aff=5935&a=add&pid=161&billingcycle=annually'
+        var orderUrl = 'https://billing.virmach.com/aff.php?aff=5847&a=add&pid=161&billingcycle=annually'
         function init(){
           current = $(`<a class="btn large greensea flat">开始</a>`)
           let el_btn_setting = $(`<a class="btn large greensea flat" id="j_setting">设置</a>`)
